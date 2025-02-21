@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.card-img-top {
+    height: 12rem;
+    object-fit: cover;
+}
+
+.carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0.4;
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
+footer>div {
+    position: relative;
+    bottom: 0;
+}

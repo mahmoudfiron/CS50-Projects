@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: While this sort was slowest for random. It was fastest for Sorted which holds true to it's definition of Ω(n). With sorted list it should take only 1 pass through the list. With reversed list the time was sometimes comparable to sort3. Hence proving that it's complexity is O(n^2)
+
+sort2 uses: Merge sort
+
+How do you know?: This sort was the fastest for random and reversed list. For Sorted list it took most time for list with 50000 items. In comparison to other list the complexity seems to stand at O(nlogn) and Ω(nlogn).
+
+sort3 uses: Selection sort
+
+How do you know?: This sort was second slowest after sort1 for Random lists and sometimes comparable to sort1 in Reversed list. But for Sorted list it was the slowest, hence Ω(n^2) compared to other 2. Since the time was second slowest but sometimes comparable to slowest sort, the Big O complexity seems to be O(n^2)
